@@ -56,23 +56,23 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div>
-            <h3 class="text-lg">Hard Skills</h3>
+            <h3 class="text-lg">Technical Skills</h3>
             <hr class="pb-2">
             <ul class="flex flex-col flex-nowrap gap-1 text-sm">
                 <li>
-                    <p>Designing and implementing artificial ntelligence models with the PyTorch framework</p>
+                    <p>Designing and implementing artificial intelligence models with the PyTorch framework</p>
                 </li>
                 <li>
                     <p>Programming with Python, JavaScript, Go, Java, C++, and C#</p>
                 </li>
                 <li>
-                    <p>Designing object oriented system arhitectures<p>
+                    <p>Designing object-oriented system architectures<p>
                 </li>
                 <li>
                     <p>Developing front-end applications with React-Router and Tailwind</p>
                 </li>
                 <li>
-                    <p>Developing RESTfull APIs with ExpressJS and SQLite</p>
+                    <p>Developing RESTful APIs with ExpressJS and SQLite</p>
                 </li>
                 <li>
                     <p>Managing and querying databases with SQL</p>
@@ -91,20 +91,22 @@ document.querySelector('#app').innerHTML = `
             <ul class="flex flex-col flex-nowrap gap-5">
                 <li>
                     <a href="https://github.com/runeen/SourceX">  
-                        <h4 class="text-md"><u>SourceX</u></h4>
+                        <h4 class="text-md font-semibold"><u>SourceX</u></h4>
                         <p class="text-sm">
-                   Machine learning model for music source separation. It has a novel arhitecture with U-Net and Tranformer-Encoder Layers.
+                   Machine learning model for music source separation.
+                   Features a novel arhitecture containing U-Net and Transformer-Encoder Layers.
+                   Implemented using PyTorch, NumPy and Flask.
                    <br>
-                   The project was awarded with cash by S.C. AMAZON WEB SERVICES and CORNERSTONE TECHNOLOGIES S.R.L. at ESTIC 2025, competition
+                   Awarded a cash prize by Amazon Web Services and Cornerstone Technologies S.R.L. at ESTIC 2025, a competition
                    organized by Universitatea "Ovidius" din Constanța.
                     </a>
                 </li>
                 <li>
                     <a href="https://pokemon.alexbotez.dev">
-                        <h4 class="text-md"><u>Pokedex Web App</u></h4>
+                        <h4 class="text-md font-bold"><u>Pokedex Web App</u></h4>
                         <p class="text-sm">
-                    Web application made with ExpressJS and React-Router. Uses the PokeAPI to fetch data about pokemon and 
-                    a REST API to handle user data and authenication. Styled with Tailwindcss.
+                    Web application made with ExpressJS and React-Router. Fetches Pokemon data from the PokeAPI and 
+                    handles user data and authentication through a custom REST API. Styled with Tailwind CSS.
                     </a>
                 </li>
             </ul>
@@ -115,9 +117,19 @@ document.querySelector('#app').innerHTML = `
             <p class="text-sm"> 
                 During my summer vacations, 
                 I worked in the food service industry as a waiter.
-                Gained valuable experience in teamwork and time management.
+                Developed strong teamwork and time management skills.
             </p>
         </div>
+        <div>
+            <h3 class="text-lg">Hobbies</h3>
+            <hr class="pb-2">
+            <p  class="text-sm">
+                I am passionate about music; I play guitar, compose songs,
+                successfully securing clients for my compositions.
+                I take pride in maintaining a healthy and active lifestyle.
+                I enjoy meeting new people and spending time with animals. I have cared
+                for my own dogs for over 15 years and regularly help stray animals in
+                my neighbourhood.
     </div>
 </div>
 
