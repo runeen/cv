@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             <div class="flex flex-col justify-center">
                 <h1 class="text-2xl">Botez Alexandru Eugen</h1>
-                <h2 class="text-lg">Software Developer</h2>
+                <h2 class="text-lg">Data Analyst</h2>
                 <h2 >Bucharest, Romania</h2>
             </div>
         </div>
@@ -21,18 +21,22 @@ document.querySelector('#app').innerHTML = `
                 Github: <a href="https://github.com/runeen" target="_blank"> github.com/runeen </a>
             </h3>
             <h3 class="text-sm">
+                LinkedIn: <a href="https://www.linkedin.com/in/alex-botez-20569638a" target="_blank"> linkedin.com/in/alex-botez-20569638a </a>
+            </h3>
+            <h3 class="text-sm">
                 <a href="https://alexbotez.dev" target="_blank">alexbotez.dev</a>
             </h3>
         </div>
     </div>
     
-    <div class="flex flex-col gap-6 text-justify">
+    <div class="flex flex-col gap-4 text-justify">
         <div class="md:hidden">
             <h3 class="text-lg">Contact</h3>
             <hr class="pb-2">
             <p class="text-sm">
                 Email: alexbotez@gmail.com  <br>
                 Github: <a href="https://github.com/runeen" target="_blank"> github.com/runeen </a> <br>
+                LinkedIn: <a href="https://www.linkedin.com/in/alex-botez-20569638a" target="_blank"> linkedin.com/in/alex-botez-20569638a </a> <br>
                 <a href="https://alexbotez.dev" target="_blank"> alexbotez.dev</a>
             </p>
         </div>
@@ -40,7 +44,7 @@ document.querySelector('#app').innerHTML = `
         <div>
             <h3 class="text-lg">About Me:</h3>
             <hr class="pb-2">
-            <p class="text-sm">Award-winning Data Science developer with specialised project experience in machine learning for time-series data. Currently pursuing a Master's in Data Science at the University of Bucharest. Seeking a Junior Data Scientist role where I can apply my Python and PyTorch skills to meaningful work.</p>
+            <p class="text-sm">Award-winning Data Analyst with specialised project experience in machine learning for time-series data. Currently pursuing a Master's in Data Science at the University of Bucharest. Seeking a Junior Data Analyst role where I can apply my Python and PyTorch skills to meaningful work.</p>
         </div>
 
         <div>
@@ -91,8 +95,8 @@ document.querySelector('#app').innerHTML = `
                     <a href="https://github.com/runeen/SourceX" target="_blank">  
                         <h4 class="text-md font-semibold"><u>SourceX</u></h4>
                         <p class="text-xs font-medium"> Award Winner, ESTIC 2025 | github.com/runeen/SourceX</p>
-                        <p class="text-xs font-medium mb-3"> PyTorch | NumPy | Transformer Architectures | U-Net</p>
-                       <p class="text-sm mb-3">
+                        <p class="text-xs font-medium mb-2"> PyTorch | NumPy | Transformer Architectures | U-Net</p>
+                       <p class="text-sm mb-2">
                        - Designed and implemented an original neural network architecture combining Convolutional 
                        and Transformer-Encoder layers to isolate individual instruments from mixed audio tracks.
                        </p>
@@ -106,12 +110,12 @@ document.querySelector('#app').innerHTML = `
                     <a href="https://pokemon.alexbotez.dev" target="_blank">
                         <h4 class="text-md font-semibold"><u>Pokedex Web App</u></h4>
                         <p class="text-xs font-medium">Live Deployment | pokemon.alexbotez.dev</p>
-                        <p class="text-xs font-medium mb-3"> React | Express.js | REST API | Tailwind CSS | SQLite </p>
-                       <p class="text-sm mb-3">
+                        <p class="text-xs font-medium mb-2"> React | Express.js | REST API | Tailwind CSS | SQLite </p>
+                       <p class="text-sm mb-2">
                        - Engineered a full-stack web application with a React frontend and a custom Express.js backend,
                        implementing client-side routing for a seamless user experience.
                        </p>
-                       <p class="text-sm mb-3">
+                       <p class="text-sm mb-2">
                        - Developed a secure REST API to handle user authentication, data persistence, and integration with
                        the external PokeAPI.
                        </p>
@@ -122,20 +126,12 @@ document.querySelector('#app').innerHTML = `
                 </li>
             </ul>
         </div>
+        
         <div class="">
             <h3 class="text-lg">Soft Skills</h3>
             <hr class="pb-2">
             <p class="text-sm">Perseverance, reliability, confidence, responsibility, adaptability 
                in team environments, and effective communication skills.
-        </div>
-        <div>
-            <h3 class="text-lg">Work Experience</h3>
-            <hr class="pb-2">
-            <p class="text-sm"> 
-                During my summer vacations, 
-                I worked in the food service industry as a waiter.
-                Developed strong teamwork and time management skills.
-            </p>
         </div>
         <div>
             <h3 class="text-lg">Hobbies</h3>
